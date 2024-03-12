@@ -185,6 +185,7 @@
                                     class="form-control name" 
                                     name="name" 
                                     placeholder="Enter Your Name"
+                                    minLength = "3"
                                 >
                                 <div class="error_message"></div>
 
@@ -198,6 +199,7 @@
                                     class="form-control email" 
                                     name="email" 
                                     placeholder="Enter Your Email"
+                                    minLength = "3"
                                 >
                                 <div class="error_message"></div>
                             </div>
@@ -210,6 +212,7 @@
                                     type="password" 
                                     name="password" 
                                     placeholder="Password"
+                                    minLength = "8"
                                 >
                                 <div class="error_message"></div>
                                 <!-- icon show hide password -->
@@ -225,6 +228,8 @@
                                     type="password" 
                                     name="confirm_password" 
                                     placeholder="Confirm Password"
+                                    minLength = "8"
+                                    selector_compared = "password"
                                 >
                                 <div class="error_message"></div>
                             </div>
@@ -375,5 +380,6 @@
 <a href="#" class="scrollup" style="display: none;"><i class="ion-ios-arrow-up"></i></a> 
 
 
+<script src="assets/js/pages/signUp.js"></script>
 </body>
 </html>
